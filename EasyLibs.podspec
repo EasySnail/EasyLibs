@@ -137,14 +137,7 @@ Pod::Spec.new do |spec|
   spec.dependency "AFNetworking", "~> 3.2.1"
   spec.dependency "MBProgressHUD", "~> 1.1.0"
   spec.dependency "SDWebImage", "~> 5.0.0-beta5"
-
-  # spec.dependency "BigInt", "~> 4.0.0"
-  # spec.dependency "CryptoSwift", "~> 1.0.0"
-  # spec.dependency "PromiseKit", "~> 6.8.5"
-  # spec.dependency "Starscream", "~> 3.1.0"
-  # spec.dependency "secp256k1.c", "~> 0.1.2"
   spec.dependency "YYModel", "~> 1.0.4"
-  spec.dependency "TZImagePickerController", "~> 3.2.6"
 
 
 end
