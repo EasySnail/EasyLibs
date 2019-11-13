@@ -45,6 +45,8 @@
 #import <EServiceSDK/UIButton+EState.h>
 #import <EServiceSDK/UISearchBar+ECatogory.h>
 #import <EServiceSDK/UIImage+ECategory.h>
+#import <EServiceSDK/ECardCropViewController.h>
+
 
 
 
