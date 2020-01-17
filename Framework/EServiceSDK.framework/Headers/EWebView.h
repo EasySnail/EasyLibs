@@ -13,6 +13,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface EWebView : WKWebView
 
+@property(nonatomic,copy)void(^webViewDecidePolicyForNavigationActionBlock)(WKNavigationAction *navigationAction,void(^decisionHandler)(WKNavigationActionPolicy));
 @property(nonatomic,copy)void(^webViewDidStartNavigationBlock)(WKWebView *webView);
 @property(nonatomic,copy)void(^webViewDidFinishNavigationBlock)(WKWebView *webView);
 @property(nonatomic,copy,nullable)void(^webViewDidFailProvisionalNavigationBlock)(NSError *error);

@@ -15,7 +15,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "EasyLibs"
-  spec.version      = "0.0.6"
+  spec.version      = "0.0.7"
   spec.summary      = "EServiceSDK,ELibManger"
 
   # This description is used to generate tags and improve search results.
@@ -137,7 +137,7 @@ Pod::Spec.new do |spec|
   spec.dependency "AFNetworking", "~> 3.2.1"
   spec.dependency "MBProgressHUD", "~> 1.1.0"
   spec.dependency "SDWebImage", "~> 5.0.0-beta5"
-  spec.dependency "YYModel", "~> 1.0.4"
+  spec.dependency "YYModel", "~> 1.0"
 
 
 end
