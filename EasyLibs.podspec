@@ -15,7 +15,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "EasyLibs"
-  spec.version      = "0.0.8"
+  spec.version      = "0.0.9"
   spec.summary      = "EServiceSDK,ELibManger"
 
   # This description is used to generate tags and improve search results.
